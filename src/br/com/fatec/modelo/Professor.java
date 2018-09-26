@@ -15,7 +15,7 @@ public class Professor extends Pessoa{
 		String dadosFormatados = super.dadosFormatados();
 		dadosFormatados = dadosFormatados +"\nRegistro: "+this.getNumeroRegistro();
 		dadosFormatados = dadosFormatados +"\nHora/Aula:"+this.getQuantidadeHoraAula();
-		return dadosFormatados();
+		return dadosFormatados;
 	}
 	
 	public String getNumeroRegistro() {

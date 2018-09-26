@@ -1,6 +1,8 @@
 package br.com.fatec.modelo;
 
-public abstract class Pessoa implements Contato{
+import java.io.Serializable;
+
+public abstract class Pessoa implements Contato, Serializable {
 	private String nome;
 	private String telefone;
 	private String email;

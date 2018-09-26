@@ -1,6 +1,8 @@
 package br.com.fatec.modelo;
 
-public class Aluno extends Pessoa {
+import java.io.Serializable;
+
+public class Aluno extends Pessoa  {
 	private String numeroMatricula;
 	@Override
 	public String toString()

@@ -99,7 +99,7 @@ public class Agenda implements Serializable {
 		{
 			System.out.println(aluno.dadosFormatados());
 		}
-		System.out.println("Lista de contatos de alunos: ");
+		System.out.println("Lista de contatos de professores: ");
 		for(Professor professor:professores)
 		{
 			System.out.println(professor.dadosFormatados());
