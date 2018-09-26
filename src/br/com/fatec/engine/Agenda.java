@@ -1,6 +1,7 @@
 package br.com.fatec.engine;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 import br.com.fatec.modelo.Aluno;
@@ -9,8 +10,17 @@ import br.com.fatec.modelo.Professor;
 public class Agenda implements Serializable {
 	private List<Aluno> alunos;
 	private List<Professor> professores;
-	/*
-	 */
+	private static Agenda agenda = null;
+	private Agenda(){
+	  alunos = new ArrayList<Aluno>();
+	  professores = new ArrayList<Professor>();
+  }
+  public static Agenda getInstance(){
+	  if(agenda == null){
+	    agenda = new Agenda();
+    }
+    return agenda;
+  }
 	public void removerAluno (String numMat){
     int remov = 0;
 	  for (Aluno al: alunos) {
@@ -87,16 +97,12 @@ public class Agenda implements Serializable {
 		System.out.println("Lista de contatos de alunos: ");
 		for(Aluno aluno:alunos)
 		{
-			System.out.println(aluno);
+			System.out.println(aluno.dadosFormatados());
 		}
 		System.out.println("Lista de contatos de alunos: ");
 		for(Professor professor:professores)
 		{
-			System.out.println("Nome: "+professor.getNome());
-			System.out.println("Telefone: "+professor.getTelefone());
-			System.out.println("Email: "+professor.getEmail());
-			System.out.println("Registro: "+professor.getNumeroRegistro());
-			System.out.println("Quantidade Hora: "+professor.getQuantidadeHoraAula()+"\n");
+			System.out.println(professor.dadosFormatados());
 		}
 
 	}

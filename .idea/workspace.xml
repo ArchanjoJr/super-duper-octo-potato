@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19de5108-50f6-49d1-b933-4c8245f76cc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/fatec/modelo/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/fatec/modelo/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/fatec/modelo/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/fatec/modelo/Pessoa.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,8 @@
         <counts>
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.88" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,67 +36,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1566" />
+          <entry key="java" value="1821" />
+          <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1566" />
+          <entry key="JAVA" value="1821" />
+          <entry key="PLAIN_TEXT" value="70" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-                  <folding>
-                    <element signature="method#removerAluno#0;class#Agenda#0" />
-                    <element signature="method#inserirAlunos#0;class#Agenda#0" />
-                    <element signature="method#editarAlunos#0;class#Agenda#0" />
-                    <element signature="method#removerProfessor#0;class#Agenda#0" />
-                    <element signature="method#inserirProfessor#0;class#Agenda#0" />
-                    <element signature="method#editarProfessor#0;class#Agenda#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/br/com/fatec/modelo/Aluno.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#138#139#0" expanded="true" />
-                    <element signature="e#234#235#0" expanded="true" />
-                    <element signature="method#dadosFormatados#0;class#Aluno#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/br/com/fatec/modelo/Pessoa.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="18" column="154" selection-start-line="18" selection-start-column="154" selection-end-line="18" selection-end-column="154" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="method#removerAluno#0;class#Agenda#0" />
+                <element signature="method#inserirAlunos#0;class#Agenda#0" />
+                <element signature="method#editarAlunos#0;class#Agenda#0" />
+                <element signature="method#removerProfessor#0;class#Agenda#0" />
+                <element signature="method#inserirProfessor#0;class#Agenda#0" />
+                <element signature="method#editarProfessor#0;class#Agenda#0" />
+                <element signature="method#listarTodos#0;class#Agenda#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,9 +78,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/br/com/fatec/modelo/Professor.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java" />
         <option value="$PROJECT_DIR$/src/br/com/fatec/modelo/Aluno.java" />
         <option value="$PROJECT_DIR$/src/br/com/fatec/modelo/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java" />
       </list>
     </option>
   </component>
@@ -133,7 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,7 +141,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -178,7 +149,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/archanjojr/Workplace/Lista4POO/src/br/com/fatec/modelo/Pessoa.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537986907012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537988513666" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -208,14 +179,23 @@
       <updated>1537917846979</updated>
       <workItem from="1537917867842" duration="3990000" />
       <workItem from="1537986038727" duration="925000" />
+      <workItem from="1537987652330" duration="700000" />
     </task>
+    <task id="LOCAL-00001" summary="add toString to both aluno and pessoa classes, and create gitignore">
+      <created>1537987974344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537987974344</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4915000" />
+    <option name="totallyTimeSpent" value="5615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="20" width="1370" height="750" extended-state="6" />
+    <frame x="0" y="21" width="1366" height="747" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -253,12 +233,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add toString to both aluno and pessoa classes, and create gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add toString to both aluno and pessoa classes, and create gitignore" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java</url>
-          <line>49</line>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -276,25 +260,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-          <folding>
-            <element signature="method#removerAluno#0;class#Agenda#0" />
-            <element signature="method#inserirAlunos#0;class#Agenda#0" />
-            <element signature="method#editarAlunos#0;class#Agenda#0" />
-            <element signature="method#removerProfessor#0;class#Agenda#0" />
-            <element signature="method#inserirProfessor#0;class#Agenda#0" />
-            <element signature="method#editarProfessor#0;class#Agenda#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/fatec/modelo/Aluno.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
             <element signature="e#138#139#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
@@ -306,7 +275,23 @@
     <entry file="file://$PROJECT_DIR$/src/br/com/fatec/modelo/Pessoa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="18" column="154" selection-start-line="18" selection-start-column="154" selection-end-line="18" selection-end-column="154" />
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/fatec/engine/Agenda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="method#removerAluno#0;class#Agenda#0" />
+            <element signature="method#inserirAlunos#0;class#Agenda#0" />
+            <element signature="method#editarAlunos#0;class#Agenda#0" />
+            <element signature="method#removerProfessor#0;class#Agenda#0" />
+            <element signature="method#inserirProfessor#0;class#Agenda#0" />
+            <element signature="method#editarProfessor#0;class#Agenda#0" />
+            <element signature="method#listarTodos#0;class#Agenda#0" />
+          </folding>
         </state>
       </provider>
     </entry>
