@@ -2,7 +2,11 @@ package br.com.fatec.modelo;
 
 public class Aluno extends Pessoa {
 	private String numeroMatricula;
-
+	@Override
+	public String toString()
+  {
+	  return new StringBuffer("\nNumero Matricula: ").append(this.numeroMatricula).toString();
+  }
 	public Aluno(String nome, String telefone, String email, String numeroMatricula) {
 		super(nome, telefone, email);
 		this.numeroMatricula = numeroMatricula;

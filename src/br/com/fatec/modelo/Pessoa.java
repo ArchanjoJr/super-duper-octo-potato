@@ -13,7 +13,11 @@ public abstract class Pessoa implements Contato{
 		dadosFormatados = dadosFormatados+"\nEmail: "+this.getEmail();
 		return dadosFormatados;
 	}
-
+	@Override
+	public String toString()
+	{
+		return new StringBuffer("Nome: ").append(this.nome).append("\nTelefone: ").append(this.telefone).append("\nEmail: ").append(this.telefone).toString();
+	}
 	public Pessoa(String nome, String telefone, String email) {
 		this.nome = nome;
 		this.telefone = telefone;

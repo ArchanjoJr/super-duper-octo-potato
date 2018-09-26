@@ -1,11 +1,12 @@
 package br.com.fatec.engine;
 
+import java.io.Serializable;
 import java.util.List;
 
 import br.com.fatec.modelo.Aluno;
 import br.com.fatec.modelo.Professor;
 
-public class Agenda {
+public class Agenda implements Serializable {
 	private List<Aluno> alunos;
 	private List<Professor> professores;
 	/*
@@ -86,10 +87,7 @@ public class Agenda {
 		System.out.println("Lista de contatos de alunos: ");
 		for(Aluno aluno:alunos)
 		{
-			System.out.println("Nome: "+aluno.getNome());
-			System.out.println("Telefone: "+aluno.getTelefone());
-			System.out.println("Email: "+aluno.getEmail());
-			System.out.println("N� Matricula: "+aluno.getNumeroMatricula()+"\n");
+			System.out.println(aluno);
 		}
 		System.out.println("Lista de contatos de alunos: ");
 		for(Professor professor:professores)
